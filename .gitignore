@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,vim,git,go
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,vim,git,go
+# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,vim,git,go,hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,vim,git,go,hugo
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -42,6 +42,21 @@ go.work
 ### Go Patch ###
 /vendor/
 /Godeps/
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### Linux ###
 *~
@@ -110,4 +125,4 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,linux,vim,git,go
+# End of https://www.toptal.com/developers/gitignore/api/macos,linux,vim,git,go,hugo

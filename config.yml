@@ -1,0 +1,30 @@
+---
+baseURL: https://dselders.github.io/
+languageCode: en-us
+title: Dave Selders
+theme: PaperMod
+
+markup:
+  highlight:
+    codeFences: true
+    lineNos: true
+
+permalinks:
+  posts: /:year/:month/:title/
+
+params:
+  homeInfoParams:
+    Title: Hi there, I'm Dave.  👋🏽
+    Content: The ramblings here are evidence of an attempt to from the firehose of technology.
+
+  socialIcons:
+    - name: github
+      url: https://github.com/dselders
+    - name: linkedin
+      url: https://www.linkedin.com/in/dselders/
+    - name: rss
+      url: /index.xml
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
