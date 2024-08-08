@@ -1,0 +1,4 @@
+baseURL = 'https://davidselders.com/'
+languageCode = 'en-us'
+title = 'David Selders'
+theme = 'mini'
